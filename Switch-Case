@@ -11,7 +11,7 @@ public class Switchcase {
 public static void main(String [] args){
 Scanner input = new Scanner(System.in);
     System.out.println("==========Program Bobot Nilai==========");
-    System.out.print("Masukkan Huruf : ");
+    System.out.print("Masukkan Huruf (A-E) : ");
     String huruf = input.next();
     
     switch(huruf){
