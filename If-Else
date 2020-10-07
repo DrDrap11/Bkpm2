@@ -1,0 +1,36 @@
+Coding If-Else
+
+package Bkpm2;
+import java.util.Scanner;
+
+/**
+ *
+ * @author THE_end
+ */
+public class Ifelse {
+    public static void main(String[] args){
+    Scanner input = new Scanner(System.in);
+        System.out.println("==========Program Kelulusan==========");
+    
+    //Nama Anda
+        System.out.print("Masukkan Nama Anda : ");
+        String nama = input.nextLine();
+        
+    //NIM Anda
+        System.out.print("Masukkan NIM Anda  : ");
+        String nim = input.next();
+        
+    //Nilai Anda
+        System.out.print("Masukkan Nilai Anda : ");
+        int nilai = input.nextInt();
+        
+    //Print
+    if (nilai >= 75){
+        System.out.println("Anda Lulus");
+    }
+    else {
+        System.out.println("Anda Tidak Lulus");
+    }
+        System.out.println("=====================================");
+    }
+}
